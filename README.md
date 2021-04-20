@@ -2,12 +2,17 @@
 
 ESLint plugin with $ExpectType and $ExpectError type assertions
 
+## Fork Notice
+This project is forked from [eslint-plugin-expect-type](https://github.com/ibezkrovnyi/eslint-plugin-expect-type). I decided to fork the repository because [my PR](https://github.com/ibezkrovnyi/eslint-plugin-expect-type/pull/15/files) is waiting to be merged for a long time.
+
+Only difference is, this one pretty prints generated snapshot. I believe it's important to have a readable, reviewable snapshot so issues won't go unnoticed.
+
 ## Installation
 
 Make sure you have TypeScript and @typescript-eslint/parser installed, then install the plugin:
 
 ```sh
-npm i -D eslint-plugin-expect-type
+npm i -D @batuhanw/eslint-plugin-expect-type
 ```
 
 Please also make sure the following packages are also installed:
@@ -26,8 +31,8 @@ Please add the following options to your `.eslintrc`
   "parserOptions": {
     "project": "./tsconfig.json"
   },
-  "plugins": ["eslint-plugin-expect-type"],
-  "extends": ["plugin:eslint-plugin-expect-type/recommended"]
+  "plugins": ["@batuhanw/eslint-plugin-expect-type"],
+  "extends": ["plugin:@batuhanw/eslint-plugin-expect-type/recommended"]
 }
 ```
 
@@ -104,6 +109,7 @@ eslint --fix
 
 # References
 
-1. https://github.com/gcanti/dtslint
-2. https://github.com/Microsoft/dtslint
-3. https://github.com/SamVerschueren/tsd
+1. https://github.com/ibezkrovnyi/eslint-plugin-expect-type
+2. https://github.com/gcanti/dtslint
+3. https://github.com/Microsoft/dtslint
+4. https://github.com/SamVerschueren/tsd

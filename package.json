@@ -1,6 +1,6 @@
 {
-  "name": "eslint-plugin-expect-type",
-  "version": "0.0.5",
+  "name": "@batuhanw/eslint-plugin-expect-type",
+  "version": "0.1.0",
   "description": "ESLint plugin with $ExpectType, $ExpectError and $ExpectTypeSnapshot type assertions",
   "author": {
     "name": "Igor Bezkrovnyi"
@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ibezkrovnyi/eslint-plugin-expect-type.git"
+    "url": "git+https://github.com/BatuhanW/eslint-plugin-expect-type.git"
   },
   "keywords": [
     "dtslint",
